@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "leveldown": "^3.0.0",
+    "pouchdb": "^6.4.3",
+    "pouchdb-adapter-rocksdb": "^1.0.4",
+    "pouchdb-core": "^6.4.3",
+    "rocksdb": "^2.0.0"
+  },
+  "name": "leveldown-chinese-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
