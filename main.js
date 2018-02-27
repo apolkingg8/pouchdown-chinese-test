@@ -1,7 +1,7 @@
-const leveldown = require("rocksdb")
+const rocksdb = require("rocksdb")
 const path = require("path")
 
-leveldown(path.resolve(__dirname, '中文', '123')).open(function (res) {
+rocksdb(path.resolve(__dirname, '中文', '123')).open(function (res) {
     debugger
 })
 
